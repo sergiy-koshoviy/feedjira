@@ -36,13 +36,13 @@ module Feedjira
         element :"media:peerLink",    as: :peerLink
         element :"media:rights",      as: :rights
         element :"media:scenes",      as: :scenes
-        element :"media:content", as: :image, value: :url, with: { type: 'image/jpeg' }
+        element :"media:content",     as: :image, value: :url, with: { type: 'image/jpeg' }
 
         elements :category,        as: :categories
-        elements :"media:content", as: :contents, class: RSSMedia::ItemContent
 
         # TODO implement roles with available set author
-        # elements :"media:credit",  as: :roles, class: RSSMedia::Role
+        # elements :"media:credit",  as: :roles,    class: RSSMedia::Role
+        # elements :"media:content", as: :contents, class: RSSMedia::ItemContent
       end
     end
   end
