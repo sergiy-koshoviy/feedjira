@@ -38,6 +38,10 @@ require "feedjira/parser/atom_youtube_entry"
 require "feedjira/parser/atom_youtube"
 require "feedjira/parser/json_feed"
 require "feedjira/parser/json_feed_item"
+require "feedjira/parser/rss_media/role"
+require "feedjira/parser/rss_media/item_content"
+require "feedjira/parser/rss_media/item"
+require "feedjira/parser/rss_media"
 
 # Feedjira
 module Feedjira

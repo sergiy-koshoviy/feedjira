@@ -58,6 +58,7 @@ module Feedjira
     def default_parsers
       [
         Feedjira::Parser::RSSFeedBurner,
+        Feedjira::Parser::RSSMedia,
         Feedjira::Parser::GoogleDocsAtom,
         Feedjira::Parser::AtomYoutube,
         Feedjira::Parser::AtomFeedBurner,
