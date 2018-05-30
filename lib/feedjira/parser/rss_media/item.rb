@@ -14,7 +14,6 @@ module Feedjira
         element :enclosure,           as: :image, value: :url
         element :"media:adult",       as: :adult
         element :"media:rating",      as: :rating
-        element :"media:title",       as: :title
         element :"media:description", as: :desription
         element :"media:keywords",    as: :keyword
         element :"media:thumbnails",  as: :thumbnails
